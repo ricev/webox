@@ -1,3 +1,4 @@
 module.exports = {
-  assetsDir: 'public'
-}
+  assetsDir: "static",
+  lintOnSave: false
+};

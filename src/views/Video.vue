@@ -24,19 +24,19 @@
 
 <script>
 export default {
-  name: 'Video',
+  name: "Video",
   data() {
     return {
-      vipLink: 'https://www.iqiyi.com/v_19rr7p5sag.html',
-      url: ''
-    }
+      vipLink: "https://www.iqiyi.com/v_19rr7p5sag.html",
+      url: ""
+    };
   },
   methods: {
     search() {
-      this.url = this.config.video.api + this.vipLink
+      this.url = this.config.video.api + this.vipLink;
     }
   }
-}
+};
 </script>
 
 <style scoped>

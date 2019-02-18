@@ -1,9 +1,9 @@
 <template>
-  <div class="home"></div>
+  <div class="home">敬请期待...</div>
 </template>
 
 <script>
 export default {
-  name: 'home'
-}
+  name: "home"
+};
 </script>
