@@ -2,20 +2,20 @@
   <div class="webox-video">
     <div class="webox-video-main">
       <el-input
+        @keyup.native.enter="search"
         placeholder="请输入视频链接..."
         suffix-icon="iconfont icon-search"
         v-model="vipLink"
-        @keyup.native.enter="search"
       ></el-input>
       <div class="webox-video-main-view">
         <iframe
-          id="webox-iframe"
           :src="url"
-          height="400px"
-          width="600px"
-          frameborder="0"
-          scrolling="no"
           allowfullscreen
+          frameborder="0"
+          height="400px"
+          id="webox-iframe"
+          scrolling="no"
+          width="600px"
         ></iframe>
       </div>
     </div>
@@ -41,23 +41,23 @@ export default {
 
 <style scoped>
 .webox-video {
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   background-color: #0f1414;
 }
 .webox-video-main {
-  padding: 30px;
   width: 610px;
   margin: auto;
+  padding: 30px;
 }
 #webox-iframe {
   margin-top: 5px;
 }
 .webox-video-main-view {
-  margin-top: 30px;
   width: 610px;
   height: 410px;
-  background-color: #232323;
+  margin-top: 30px;
   border-radius: 5px;
+  background-color: #232323;
 }
 </style>
