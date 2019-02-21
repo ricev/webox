@@ -123,7 +123,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "Music",
   data() {
     return {
       keyword: "",
