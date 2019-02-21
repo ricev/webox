@@ -41,23 +41,23 @@ export default {
 
 <style scoped>
 .webox-video {
-  width: 100vw;
+  background: linear-gradient(to top, #000000, #393939);
   height: 100vh;
-  background-color: #0f1414;
+  width: 100vw;
 }
 .webox-video-main {
-  width: 610px;
   margin: auto;
   padding: 30px;
+  width: 610px;
 }
 #webox-iframe {
   margin-top: 5px;
 }
 .webox-video-main-view {
-  width: 610px;
+  background-color: #232323;
+  border-radius: 5px;
   height: 410px;
   margin-top: 30px;
-  border-radius: 5px;
-  background-color: #232323;
+  width: 610px;
 }
 </style>

@@ -263,14 +263,14 @@ export default {
 }
 .iconfont {
   fill: currentColor;
-  overflow: hidden;
   font-size: 30px;
+  overflow: hidden;
 }
 .webox-music {
-  background-color: #142639;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+  color: #61819e;
   height: 100vh;
   width: 100vw;
-  color: rgb(97, 129, 158);
 }
 .webox-music-search {
   font-size: 16px;
@@ -288,9 +288,9 @@ export default {
   font-size: 20px;
 }
 .webox-music-table-item {
-  padding: 10px 0;
-  font-size: 16px;
   border-top: 1px solid #40648541;
+  font-size: 16px;
+  padding: 10px 0;
 }
 .webox-music-panel {
   margin-top: 10px;
