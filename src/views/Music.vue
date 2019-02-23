@@ -1,29 +1,23 @@
 <template>
-  <el-container class="webox-music">
-    <el-header class="webox-music-search">
+  <div class="webox-music">
+    <div class="search">
       <el-row align="middle" type="flex">
-        <el-col :lg="4" :xs="0">
+        <el-col :offset="1" :span="4">
           <img height="80px" src="@/assets/images/logo.png" />
         </el-col>
-        <el-col :lg="{ span: 8, offset: 3 }" :xs="{ span: 22, offset: 1 }">
-          <el-col :lg="15" :xs="18">
-            <el-input
-              @keyup.native.enter="search"
-              placeholder="请输入歌名..."
-              suffix-icon="iconfont icon-search"
-              v-model="keyword"
-            ></el-input>
-          </el-col>
+        <el-col :offset="3" :span="8">
+          <el-input
+            @keyup.native.enter="search"
+            placeholder="请输入歌名..."
+            suffix-icon="iconfont icon-search"
+            v-model="keyword"
+          ></el-input>
         </el-col>
       </el-row>
-    </el-header>
-    <el-main class="webox-music-view">
-      <el-col
-        :lg="{ span: 13, offset: 2 }"
-        :xs="{ span: 24 }"
-        class="webox-music-table"
-      >
-        <el-row align="middle" class="webox-music-table-header" type="flex">
+    </div>
+    <div class="main">
+      <el-col :offset="2" :span="13" class="main-table">
+        <el-row align="middle" class="main-table-header" type="flex">
           <el-col :span="2"></el-col>
           <el-col :span="10">歌曲</el-col>
           <el-col :span="8">歌手</el-col>
@@ -31,7 +25,7 @@
         <el-row
           :key="item.id"
           align="middle"
-          class="webox-music-table-item"
+          class="main-table-item"
           type="flex"
           v-for="item in musicList"
         >
@@ -49,19 +43,19 @@
           </el-col>
         </el-row>
       </el-col>
-      <el-col :lg="{ span: 4, offset: 2 }" :xs="{ span: 0 }">
+      <el-col :offset="2" :span="4">
         <img :src="music.cover" width="300px" />
       </el-col>
-    </el-main>
-    <el-footer class="webox-music-panel" height="80px">
-      <el-col :lg="{ span: 22, offset: 2 }" :xs="{ span: 24 }">
+    </div>
+    <div class="panel">
+      <el-col :offset="2" :span="22">
         <div class="vaudio">
-          <el-col :lg="22" :xs="24">
+          <el-col :span="22">
             <el-row :gutter="10" align="middle">
-              <el-col :lg="1" :xs="8">
+              <el-col :span="1">
                 <i @click="preSong" class="iconfont icon-left-circle"></i>
               </el-col>
-              <el-col :lg="1" :xs="8">
+              <el-col :span="1">
                 <i
                   @click="playSong"
                   class="iconfont icon-play-circle"
@@ -73,10 +67,10 @@
                   v-if="isPlay"
                 ></i>
               </el-col>
-              <el-col :lg="1" :xs="8">
+              <el-col :span="1">
                 <i @click="nextSong" class="iconfont icon-right-circle"></i>
               </el-col>
-              <el-col :lg="16" :xs="20">
+              <el-col :span="12">
                 <div>
                   <el-slider
                     :format-tooltip="formatTimeBar"
@@ -85,7 +79,7 @@
                   ></el-slider>
                 </div>
               </el-col>
-              <el-col :lg="1" :xs="0" style="margin-top:3px">
+              <el-col :span="1" style="margin-top:3px">
                 <i
                   :scale="3"
                   @click="setMuted"
@@ -99,7 +93,7 @@
                   v-if="isMuted"
                 ></i>
               </el-col>
-              <el-col :lg="2" :xs="0">
+              <el-col :span="2">
                 <el-slider
                   @change="setVolume"
                   v-model="volumeValue"
@@ -117,8 +111,8 @@
           ></audio>
         </div>
       </el-col>
-    </el-footer>
-  </el-container>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -262,37 +256,43 @@ export default {
   display: none;
 }
 .iconfont {
-  fill: currentColor;
-  font-size: 30px;
   overflow: hidden;
+  font-size: 30px;
+
+  fill: currentColor;
 }
 .webox-music {
-  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   color: #61819e;
-  height: 100vh;
-  width: 100vw;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
 }
-.webox-music-search {
+.search {
+  height: 80px;
   font-size: 16px;
 }
-.webox-music-view {
-  margin-top: 30px;
-  min-height: calc(100vh - 200px);
+.main {
+  height: calc(100vh - 230px);
+  min-height: 400px;
+  padding-top: 30px;
   text-align: left;
 }
-.webox-music-table {
-  height: calc(100vh - 240px);
+.main-table {
+  height: 100%;
   overflow: auto;
 }
-.webox-music-table-header {
+.main-table-header {
   font-size: 20px;
 }
-.webox-music-table-item {
-  border-top: 1px solid #40648541;
-  font-size: 16px;
+.main-table-item {
   padding: 10px 0;
+  font-size: 16px;
+  border-top: 1px solid #40648541;
 }
-.webox-music-panel {
-  margin-top: 10px;
+.panel {
+  height: 80px;
+  padding-top: 40px;
 }
 </style>
