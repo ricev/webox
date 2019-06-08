@@ -72,6 +72,11 @@ export default {
         name: "开发",
         sites: [
           {
+            icon: "https://visualgo.net/img/favicon.png",
+            name: "VisuAlgo",
+            url: "https://visualgo.net/zh"
+          },
+          {
             icon:
               "https://up.img.heidiancdn.com/o_1bn25sprr1kg310kk1dja1esd080logo.png?imageView2/2/w/640/ignore-error/1",
             name: "设计导航",
@@ -92,6 +97,11 @@ export default {
       {
         name: "资源",
         sites: [
+          {
+            icon: "http://www.codingkuai.com/favicon.ico",
+            name: "代码块",
+            url: "http://www.codingkuai.com"
+          },
           {
             icon:
               "http://mebook.cc/wp-content/themes/a-supercms-3.7/favicon.ico",
