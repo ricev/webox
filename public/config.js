@@ -114,7 +114,7 @@ export default {
             url: "http://readfree.me/"
           },
           {
-            icon: "https://alpha.wallhaven.cc/favicon.ico",
+            icon: "https://wallhaven.cc/favicon.ico",
             name: "Wallhaven",
             url: "https://alpha.wallhaven.cc/"
           },
