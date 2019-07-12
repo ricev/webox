@@ -116,7 +116,7 @@ export default {
           {
             icon: "https://wallhaven.cc/favicon.ico",
             name: "Wallhaven",
-            url: "https://alpha.wallhaven.cc/"
+            url: "https://wallhaven.cc/"
           },
           {
             icon:
