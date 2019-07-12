@@ -135,8 +135,7 @@ export default {
       .get(this.config.music.api, {
         params: {
           server: "netease",
-          id: this.config.music.initId,
-          r: 233
+          id: this.config.music.initId
         }
       })
       .then(res => {
@@ -158,8 +157,7 @@ export default {
             params: {
               server: ser,
               type: "parse",
-              id: keyword,
-              r: 233
+              id: keyword
             }
           })
           .then(res => {

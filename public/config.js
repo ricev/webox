@@ -135,9 +135,9 @@ export default {
   },
   music: {
     initId: "544070223",
-    api: "https://api.i-meto.com/api/v1/meting"
+    api: "https://api.i-meto.com/meting/api"
   },
   video: {
-    api: "http://api.51ckm.com/jx.php?url="
+    api: "http://api.baiyug.cn/vip/index.php?url="
   }
 };
