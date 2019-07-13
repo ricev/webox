@@ -134,7 +134,7 @@ export default {
     this.$axios
       .get(this.config.music.api, {
         params: {
-          server: "netease",
+          server: this.config.music.initServer,
           id: this.config.music.initId
         }
       })
