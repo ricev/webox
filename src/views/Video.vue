@@ -27,7 +27,7 @@ export default {
   name: "Video",
   data() {
     return {
-      vipLink: "https://www.iqiyi.com/v_19rr7p5sag.html",
+      vipLink: this.config.video.vipLink,
       url: ""
     };
   },

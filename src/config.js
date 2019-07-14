@@ -134,11 +134,12 @@ export default {
     ]
   },
   music: {
-    initServer: "netease",
-    initId: "544070223",
-    api: "https://api.i-meto.com/meting/api"
+    api: "https://api.i-meto.com/meting/api",
+    initServer: "kugou",
+    initId: "亲爱的，我想做你女朋友"
   },
   video: {
-    api: "http://api.baiyug.cn/vip/index.php?url="
+    api: "http://api.ledboke.com/vip/?url=",
+    vipLink: "https://www.iqiyi.com/v_19rr8cycvc.html"
   }
 };
