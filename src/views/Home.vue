@@ -79,6 +79,9 @@ a:active {
   color: #ebf3ef;
   background-image: linear-gradient(-20deg, #f8f3ff 0%, #fffff0 100%);
 }
+.project {
+  margin-top: 60px;
+}
 .project-item {
   display: inline-block;
   width: 240px;
@@ -97,7 +100,7 @@ a:active {
   transform: scale(1.1);
 }
 .project-item h1 {
-  margin-top: 30px;
+  margin-top: 40px;
   color: #ebf3ef;
   font-size: 21px;
 }

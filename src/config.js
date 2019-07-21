@@ -17,7 +17,7 @@ export default {
             url: "http://mail.alumni.hust.edu.cn"
           },
           {
-            name: "cloudCone",
+            name: "cloudcone",
             url: "https://app.cloudcone.com/?ref=1677"
           },
           {
@@ -59,19 +59,23 @@ export default {
         name: "开发",
         sites: [
           {
-            name: "visualGo",
+            name: "coding",
+            url: "http://www.codingkuai.com"
+          },
+          {
+            name: "visualgo",
             url: "https://visualgo.net/zh"
           },
           {
-            name: "uiRush",
+            name: "uirush",
             url: "https://uirush.com/page/design"
           },
           {
-            name: "HTML",
+            name: "html",
             url: "https://htmlreference.io/"
           },
           {
-            name: "CSS",
+            name: "css",
             url: "https://cssreference.io/"
           }
         ]
@@ -80,11 +84,11 @@ export default {
         name: "资源",
         sites: [
           {
-            name: "coding",
-            url: "http://www.codingkuai.com"
+            name: "baiduwp",
+            url: "https://pan.baiduwp.com/"
           },
           {
-            name: "meBook",
+            name: "mebook",
             url: "http://mebook.cc"
           },
           {
