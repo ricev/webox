@@ -256,7 +256,6 @@ export default {
 .iconfont {
   overflow: hidden;
   font-size: 30px;
-
   fill: currentColor;
 }
 .webox-music {

@@ -3,7 +3,7 @@
     <div class="project">
       <div
         :key="item.name"
-        :style="'background-color:' + colors[index % 10]"
+        :style="'background-color:' + colors[index]"
         class="project-item"
         v-for="(item, index) in projects"
       >
@@ -28,7 +28,7 @@
           v-for="item in nav.sites"
         >
           <a :href="item.url">
-            <img :alt="e" :src="item.icon" />
+            <i class="el-icon-s-help"></i>
             <span>{{ item.name }}</span>
           </a>
         </el-col>
@@ -46,26 +46,16 @@ export default {
       projects: [
         {
           name: "CloudMusic",
-          description:
-            "聚合音乐播放器，集成网易云、腾讯、虾米、酷狗、百度等多家资源",
+          description: "聚合音乐播放器，听首歌？",
           route: "music"
         },
         {
           name: "NimaVideo",
-          description: "视频解析播放器，支持主流视频网站付费视频播放",
+          description: "视频解析播放器，看个片？",
           route: "video"
         }
       ],
-      colors: [
-        "#d08c8c",
-        "#4478a2",
-        "#7961b5",
-        "#618fb5",
-        "#61b5a8",
-        "#b57f61",
-        "#aab53c",
-        "#607d8b"
-      ]
+      colors: ["#61909e", "#252525"]
     };
   }
 };
@@ -87,7 +77,7 @@ a:active {
   height: 100%;
   overflow: auto;
   color: #ebf3ef;
-  background: linear-gradient(#fa00004d, rgba(0, 250, 0, 0.4));
+  background-image: linear-gradient(-20deg, #f8f3ff 0%, #fffff0 100%);
 }
 .project-item {
   display: inline-block;
@@ -95,7 +85,6 @@ a:active {
   height: 150px;
   margin: 30px;
   overflow: hidden;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   vertical-align: middle;
   border-radius: 15px;
@@ -104,9 +93,7 @@ a:active {
   transition-duration: 0.3s;
   transition-property: transform;
 }
-.project-item:hover,
-.project-item:focus,
-.project-item:active {
+.project-item:hover {
   transform: scale(1.1);
 }
 .project-item h1 {
@@ -143,13 +130,7 @@ a:active {
   color: #343536;
   text-decoration: none;
 }
-.navigation-row-item img {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
-}
 .navigation-row-item span {
   padding-left: 8px;
-  vertical-align: middle;
 }
 </style>

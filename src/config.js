@@ -5,34 +5,27 @@ export default {
         name: "常用",
         sites: [
           {
-            icon: "https://github.com/favicon.ico",
-            name: "Github",
+            name: "github",
             url: "https://github.com"
           },
           {
-            icon:
-              "https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico",
-            name: "Gmail",
+            name: "gmail",
             url: "https://mail.google.com/mail/"
           },
           {
-            icon: "https://mail.hust.edu.cn/favicon.ico",
-            name: "邮箱",
+            name: "alumni",
             url: "http://mail.alumni.hust.edu.cn"
           },
           {
-            icon: "https://app.cloudcone.com/assets/img/favicon.png",
-            name: "Cone",
+            name: "cloudCone",
             url: "https://app.cloudcone.com/?ref=1677"
           },
           {
-            icon: "https://www.dynadot.com/favicon.ico",
-            name: "Dynadot",
+            name: "dynadot",
             url: "http://www.dynadot.com?s6K8T7U9FV7aP6t"
           },
           {
-            icon: "https://www.freenom.com/favicon.ico",
-            name: "Freenom",
+            name: "freenom",
             url: "https://www.freenom.com"
           }
         ]
@@ -41,29 +34,23 @@ export default {
         name: "门户",
         sites: [
           {
-            icon: "http://static.hdslb.com/images/favicon.ico",
-            name: "哔哩哔哩",
+            name: "bilibili",
             url: "https://www.bilibili.com/"
           },
           {
-            icon: "https://www.zhihu.com/favicon.ico",
-            name: "知乎",
+            name: "zhihu",
             url: "https://www.zhihu.com"
           },
           {
-            icon: "https://weibo.com/favicon.ico",
-            name: "微博",
+            name: "weibo",
             url: "https://weibo.com/zhishuzi/home?is_search=1"
           },
           {
-            icon: "http://www.iqiyi.com/favicon.ico",
-            name: "爱奇艺",
+            name: "iqiyi",
             url: "https://www.iqiyi.com"
           },
           {
-            icon:
-              "https://gw.alicdn.com/tfs/TB1ZvwSycbpK1RjSZFyXXX_qFXa-48-48.ico",
-            name: "优酷",
+            name: "youku",
             url: "http://www.youku.com"
           }
         ]
@@ -72,23 +59,18 @@ export default {
         name: "开发",
         sites: [
           {
-            icon: "https://visualgo.net/img/favicon.png",
-            name: "VisuAlgo",
+            name: "visualGo",
             url: "https://visualgo.net/zh"
           },
           {
-            icon:
-              "https://up.img.heidiancdn.com/o_1bn25sprr1kg310kk1dja1esd080logo.png?imageView2/2/w/640/ignore-error/1",
-            name: "设计导航",
+            name: "uiRush",
             url: "https://uirush.com/page/design"
           },
           {
-            icon: "https://htmlreference.io/favicons/favicon.ico",
             name: "HTML",
             url: "https://htmlreference.io/"
           },
           {
-            icon: "https://cssreference.io/favicons/favicon.ico",
             name: "CSS",
             url: "https://cssreference.io/"
           }
@@ -98,35 +80,27 @@ export default {
         name: "资源",
         sites: [
           {
-            icon: "http://www.codingkuai.com/favicon.ico",
-            name: "代码块",
+            name: "coding",
             url: "http://www.codingkuai.com"
           },
           {
-            icon:
-              "http://mebook.cc/wp-content/themes/a-supercms-3.7/favicon.ico",
-            name: "小书屋",
+            name: "meBook",
             url: "http://mebook.cc"
           },
           {
-            icon: "https://readfree.me/static/img/icon24.a5d5cfc437d1.png",
-            name: "Readfree",
+            name: "readfree",
             url: "http://readfree.me/"
           },
           {
-            icon: "https://wallhaven.cc/favicon.ico",
-            name: "Wallhaven",
+            name: "wallhaven",
             url: "https://wallhaven.cc/"
           },
           {
-            icon:
-              "https://static.convertio.co/img/apple-touch-icon-76x76-precomposed.png",
-            name: "Convertio",
+            name: "convertio",
             url: "https://convertio.co/zh/"
           },
           {
-            icon: "https://www.json.cn/favicon.ico",
-            name: "Json解析",
+            name: "json",
             url: "https://www.json.cn"
           }
         ]
