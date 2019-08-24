@@ -27,10 +27,6 @@ export default {
           {
             name: "netlify",
             url: "https://app.netlify.com"
-          },
-          {
-            name: "freenom",
-            url: "https://www.freenom.com"
           }
         ]
       },
@@ -81,6 +77,10 @@ export default {
           {
             name: "css",
             url: "https://cssreference.io/"
+          },
+          {
+            name: "freenom",
+            url: "https://www.freenom.com"
           }
         ]
       },
