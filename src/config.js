@@ -25,6 +25,10 @@ export default {
             url: "http://www.dynadot.com?s6K8T7U9FV7aP6t"
           },
           {
+            name: "netlify",
+            url: "https://app.netlify.com"
+          },
+          {
             name: "freenom",
             url: "https://www.freenom.com"
           }
@@ -117,7 +121,7 @@ export default {
     initId: "亲爱的，我想做你女朋友"
   },
   video: {
-    api: "http://api.ledboke.com/vip/?url=",
+    api: "https://api.bbbbbb.me/vip/?url=",
     vipLink: "https://www.iqiyi.com/v_19rr8cycvc.html"
   }
 };
