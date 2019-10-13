@@ -23,10 +23,27 @@ export default {
           {
             name: "dynadot",
             url: "http://www.dynadot.com?s6K8T7U9FV7aP6t"
-          },
+          }
+        ]
+      },
+      {
+        name: "免费",
+        sites: [
           {
             name: "netlify",
             url: "https://app.netlify.com"
+          },
+          {
+            name: "jsdelivr",
+            url: "https://www.jsdelivr.com"
+          },
+          {
+            name: "leancloud",
+            url: "https://leancloud.cn"
+          },
+          {
+            name: "freenom",
+            url: "https://www.freenom.com"
           }
         ]
       },
@@ -77,10 +94,6 @@ export default {
           {
             name: "css",
             url: "https://cssreference.io/"
-          },
-          {
-            name: "freenom",
-            url: "https://www.freenom.com"
           }
         ]
       },
@@ -102,7 +115,12 @@ export default {
           {
             name: "wallhaven",
             url: "https://wallhaven.cc/"
-          },
+          }
+        ]
+      },
+      {
+        name: "工具",
+        sites: [
           {
             name: "convertio",
             url: "https://convertio.co/zh/"
@@ -110,6 +128,10 @@ export default {
           {
             name: "json",
             url: "https://www.json.cn"
+          },
+          {
+            name: "vectorizer",
+            url: "https://www.vectorizer.io"
           }
         ]
       }
@@ -117,8 +139,8 @@ export default {
   },
   music: {
     api: "https://api.i-meto.com/meting/api",
-    initServer: "kugou",
-    initId: "亲爱的，我想做你女朋友"
+    initServer: "netease",
+    initId: "569214247"
   },
   video: {
     api: "https://api.bbbbbb.me/vip/?url=",

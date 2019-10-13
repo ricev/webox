@@ -114,7 +114,7 @@ a:active {
   margin: 20px auto;
 }
 .navigation-row {
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 .navigation-row-item {
   display: inline-block;
